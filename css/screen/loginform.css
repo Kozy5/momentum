@@ -1,0 +1,20 @@
+#login-form {
+  padding-left: 50px;
+}
+#login-form,
+#greeting-box,
+#renaming-form {
+  position: absolute;
+  top: 33%;
+}
+#greeting {
+  color: white;
+  font-size: 35px;
+}
+#renaming-form {
+  top: 40%;
+}
+#renaming-form button {
+  background-color: white;
+  border: none;
+}

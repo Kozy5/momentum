@@ -1,0 +1,28 @@
+@import "loginform.css";
+@import "reset.css";
+
+/* Screen */
+@import "screen/clock.css";
+@import "screen/loginform.css";
+@import "screen/todo.css";
+@import "screen/listitem.css";
+@import "screen/quote.css";
+@import "screen/weather.css";
+
+/* Component */
+@import "component/input.css";
+.hidden {
+  display: none;
+}
+
+img {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+#main-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
